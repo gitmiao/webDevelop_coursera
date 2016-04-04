@@ -21,16 +21,53 @@
   <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
-        
+      <!-- navbar header -->
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <h1>Food,LLC</h1>
+          </div>
+          <!-- button -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="  #collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+              <a href="#">Chicken</a>
+            </li>
+            <li>
+              <a href="#">Beef</a>
+            </li>
+            <li>
+              <a href="#">Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
       </div>
     </nav>
-  
   </header>
 
-  <h1>Hello Coursera!</h1>
+  <div id="main-content" class="container">
+    <h1 class="text-center">Our Menu</h1>
+      <div class="col-xs-12">
+        <div id="sub-content"> 
+          <h2 class="text-center">chicken</h2>
+          <p>Hac orci. Elit viverra leo. Nonummy feugiat curabitur dis sit mus gravida. Phasellus elit per tempus erat, hendrerit magna odio est posuere nibh scelerisque. Leo vehicula nam facilisi sociosqu. Molestie. Arcu netus posuere porttitor, penatibus volutpat.
+
+          Et egestas mus curabitur etiam massa dis. Euismod nibh quisque. Accumsan turpis feugiat massa ipsum mauris phasellus, dui vitae nec iaculis eget morbi conubia commodo mus laoreet ipsum varius.
+
+          Fringilla commodo quam in sem. Congue. Sollicitudin sodales blandit mus faucibus ut senectus Dapibus. Magnis. Nullam sagittis natoque in, amet facilisi aliquet lacinia senectus nulla nisi pulvinar neque felis purus. Praesent erat fermentum nascetur parturient.</p>
+        </div>
+      </div>  
+  </div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>

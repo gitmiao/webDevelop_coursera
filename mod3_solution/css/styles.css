@@ -1,13 +1,44 @@
 body {
 	font-size: 16px;
-	background-color: grey;
 	font-family:'Oxygen', sans-serif;
 }
 
 /*** HEADER ***/
 #header-nav{
-	background-color: #f6b319;
+	background-color: grey;
 	border-radius: 0;
-	border-color: grey;
-	
+	border: 0;
+
+}
+.navbar-brand{
+	padding-top: 15px;
+}
+.navbar-brand h1{
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#collapsable-nav{
+	position: absolute;
+	width: 100%;
+}
+
+@media (max-width: 767px) {
+	#nav-list{
+		background-color: white;
+		color: black;
+		text-align: center;
+	}
+}
+
+/**** content ****/
+
+#sub-content {
+	margin-top: 40px;
+	background-color: grey;
+	padding: 20px;
+	height: 1000px;
 }
